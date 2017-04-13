@@ -1,7 +1,7 @@
 /* Universal styles */
 
 html {
-    font-family: "Arial";
+    font-family: "Helvetica";
     font-size: 16px;
     color: #333;
 }
@@ -9,19 +9,19 @@ html {
     width: 95%;
 }
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 h4 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
@@ -56,12 +56,10 @@ header nav a {
     align-items: center;
     padding: 32px 24px;
 }
-
 .banner-section img {
     max-width: 60%;
     flex-grow: 0 0 60%;
 }
-
 .banner-head {
     height: 100%;
     display: inline-flex;
@@ -70,17 +68,14 @@ header nav a {
     align-items: flex-start;
     margin-left: 40px;
 }
-
 .banner-head h1 {
   margin-top: 24px;
   line-height: 1.2;
 }
-
-.banner-head h2 {
+.banner-head h3 {
   margin-top: 24px;
   line-height: 1.2;
 }
-
 .banner-section .banner-button {
     background-color: #542c10;
     color: white;
@@ -88,16 +83,80 @@ header nav a {
     margin-top: 50px;
     width: 70%;
 }
-
 .banner-section .banner-button p {
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-
 /* Practice */
+.practice-section{
+  background-color: #f7f7f7;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px 24px;
+}
+.practice-left-col{
+  display: inline-flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  margin: 32px 24px;
+}
+.practice-left-col h2{
+  margin-top: 32px;
+  margin-bottom: 24px;
+  margin-left: 0px;
+}
+.practice-left-col img{
+  width: 100%;
+}
+.practice-left-col .quote {
+  font-style: italic;
+}
+.practice-left-col .attribution {
+  margin: 20px 0px;
+  font-size: .8rem;
+  font-weight: 600;
+}
 
+.practice-right-col{
+  display: inline-flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  margin-top: 16px;
+}
+.practice-right-col .image-block{
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.practice-right-col .image-block-text{
+  display: inline-flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  line-height: 2;
+  width: 65%;
+}
+.practice-right-col .image-block img {
+  width: 35%;
+  margin: 16px;
+}
+
+.practice-right-col .image-block-text a{
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.special-guest {
+  background-color: #999999;
+}
 
 /* Learning */
 
