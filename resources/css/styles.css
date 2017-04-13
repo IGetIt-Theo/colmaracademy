@@ -1,34 +1,108 @@
+/* Universal styles */
+
+html {
+    font-family: "Arial";
+    font-size: 16px;
+    color: #333;
+}
+.container {
+    width: 95%;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 /* Header */
 header {
-  background-color: white;
-  padding: 16px 24px;
-  height: 64px;
+    background-color: white;
+    padding: 0px 24px;
+    height: 64px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo-group {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    padding: 8px;
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Banner */
 .banner-section {
-  display: flex;
-  flex-flow: row nowrap;
-  padding: 32px 24px;
-
+    background-color: #eeeeee;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 24px;
 }
 
 .banner-section img {
-
+    max-width: 60%;
+    flex-grow: 0 0 60%;
 }
 
-.banner-section banner-button{
-  background-color: brown;
-  color: white;
-  font-weight: bold;
-  padding: 8px;
+.banner-head {
+    height: 100%;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 40px;
 }
+
+.banner-head h1 {
+  margin-top: 24px;
+  line-height: 1.2;
+}
+
+.banner-head h2 {
+  margin-top: 24px;
+  line-height: 1.2;
+}
+
+.banner-section .banner-button {
+    background-color: #542c10;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.banner-section .banner-button p {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 
 /* Practice */
 
+
 /* Learning */
 
+
 /* Thesis */
+
 
 /* Footer */
