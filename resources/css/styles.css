@@ -113,7 +113,7 @@ header nav a {
 .practice-left-col img{
   width: 100%;
 }
-.practice-left-col .quote {
+.quote {
   font-style: italic;
 }
 .practice-left-col .attribution {
@@ -172,7 +172,6 @@ header nav a {
   align-items: center;
   align-content: space-between;
 }
-
 .learning-section .image-block {
   margin-bottom: 16px;
   margin-right: 32px;
@@ -180,31 +179,53 @@ header nav a {
   width: 30%;
   height: 375px;
 }
-
 .learning-section img {
   max-width: 100%;
   margin-bottom: 16px;
 }
-
 .learning-section .image-block-text{
   margin-bottom: 24px;
   margin-left: 16px;
   margin-right: 76px;
   line-height: 1.5rem;
 }
-
 .coursetitle {
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 16px;
 }
-
 .courses {
   font-size: 1.1rem;
   margin: 8px 0px;
 }
 
 /* Thesis */
+.thesis-section {
+  background-color: #f7f7f7;
+  padding: 32px 24px;
+}
+.thesis-section h1 {
+  text-align: center;
+  margin: 32px auto;
+}
+.thesis-section-blocks{
+  width: 100%;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+.thesis-left-col {
+  width: 60%;
+}
+.thesis-left-col video{
+  max-width: 100%;
+
+}
+.thesis-right-col {
+  width: 40%;
+}
 
 
 /* Footer */
