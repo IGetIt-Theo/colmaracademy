@@ -35,13 +35,20 @@ h4 {
 .quote {
   font-style: italic;
 }
-.special-guest {
+.highlighted-content {
   background-color: #999999;
 }
 .description {
   font-size: 1rem;
   font-weight: normal;
 }
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 /* Header */
 header {
     background-color: white;
@@ -189,7 +196,7 @@ header nav a {
   margin-right: 32px;
   background-color: white;
   width: 30%;
-  height: 375px;
+  min-height: 375px;
 }
 .learning-section img {
   max-width: 100%;
@@ -226,11 +233,13 @@ header nav a {
   justify-content: flex-start;
   align-items: flex-start;
   align-content: space-between;
-  width: 60%;
+  width: 58%;
+}
+.thesis-left-col .videocontainer{
+
 }
 .thesis-left-col video{
   max-width: 100%;
-
 }
 
 .thesis-right-col {
@@ -239,6 +248,7 @@ header nav a {
   align-items: flex-start;
   align-content: space-between;
   width: 40%;
+
 }
 .thesis-right-col .image-block{
   display: inline-flex;
@@ -250,14 +260,24 @@ header nav a {
   display: inline-flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  line-height: 2;
+  line-height: 1;
   width: 60%;
+  height: 168px;
 }
 .thesis-right-col .image-block img {
   width: 40%;
-  margin-bottom: 16px;
-  margin-left: 16px;
   margin-right: 16px;
 }
 
 /* Footer */
+footer {
+  font-size: .75rem;
+  border-top: 1px #979797;
+  background-color: #f7f7f7;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
