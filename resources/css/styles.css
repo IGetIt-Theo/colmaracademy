@@ -23,7 +23,25 @@ h4 {
     font-size: 1.25rem;
     font-weight: bold;
 }
-
+.coursetitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 16px;
+}
+.courses {
+  font-size: 1.1rem;
+  margin: 8px 0px;
+}
+.quote {
+  font-style: italic;
+}
+.special-guest {
+  background-color: #999999;
+}
+.description {
+  font-size: 1rem;
+  font-weight: normal;
+}
 /* Header */
 header {
     background-color: white;
@@ -113,9 +131,6 @@ header nav a {
 .practice-left-col img{
   width: 100%;
 }
-.quote {
-  font-style: italic;
-}
 .practice-left-col .attribution {
   margin: 20px 0px;
   font-size: .8rem;
@@ -150,9 +165,6 @@ header nav a {
 .practice-right-col .image-block-text a{
   text-decoration: none;
   margin-top: 16px;
-}
-.special-guest {
-  background-color: #999999;
 }
 
 /* Learning */
@@ -189,15 +201,6 @@ header nav a {
   margin-right: 76px;
   line-height: 1.5rem;
 }
-.coursetitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 16px;
-}
-.courses {
-  font-size: 1.1rem;
-  margin: 8px 0px;
-}
 
 /* Thesis */
 .thesis-section {
@@ -213,19 +216,48 @@ header nav a {
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   align-content: space-between;
+  margin-bottom: 24px;
+  margin-right: 16px;
 }
 .thesis-left-col {
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-between;
   width: 60%;
 }
 .thesis-left-col video{
   max-width: 100%;
 
 }
+
 .thesis-right-col {
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-between;
   width: 40%;
 }
-
+.thesis-right-col .image-block{
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.thesis-right-col .image-block-text{
+  display: inline-flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  line-height: 2;
+  width: 60%;
+}
+.thesis-right-col .image-block img {
+  width: 40%;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
 
 /* Footer */
