@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="./resources/css/reset.css">
-    <link rel="stylesheet" href="./resources/css/styles.css">
+    <link rel="stylesheet" media="(min-width: 1030px)" href="./resources/css/styles.css">
+    <link rel="stylesheet" media="(max-width: 1029px) and (min-width: 64px)" href="./resources/css/mobile-styles.css">
 </head>
-
 <body>
     <!-- Start Header -->
-    <header class="container">
-        <div class="logo-group">
-            <img src="resources\images\ic-logo.svg" alt="Logo">
-            <span class="colmar"><strong>Colmar</strong> Academy</span>
+    <header>
+        <div class="container">
+          <div class="logo-group">
+                <img src="resources\images\ic-logo.svg" alt="Logo">
+                <span class="colmar"><strong>Colmar</strong> Academy</span>
+            </div>
+            <nav>
+                <span><a href="#">On Campus</a></span>
+                <span><a href="#">Online</a></span>
+                <span><a href="#">For companies</a></span>
+                <span><a href="#">Sign in</a></span>
+            </nav>
         </div>
-        <nav>
-            <span><a href="#">On Campus</a></span>
-            <span><a href="#">Online</a></span>
-            <span><a href="#">For companies</a></span>
-            <span><a href="#">Sign in</a></span>
+        <nav class="mobile">
+            <img src="resources\images\ic-logo.svg" alt="school logo">
+            <img src="resources\images\ic-on-campus.svg" alt="on campus classes">
+            <img src="resources\images\ic-online.svg" alt="on line classes">
+            <img src="resources\images\ic-login.svg" alt="on line classes">
         </nav>
     </header>
     <!--End Header -->
+
     <!------------------------------------------->
     <!--Start Banner Section -->
     <div class="banner-section container">
@@ -157,11 +165,11 @@
         <h1>Thesis exhibit</h1>
         <div class="thesis-section-blocks">
             <div class="thesis-left-col">
-              <div class="videocontainer">
-                <video src="resources\images\thesis.mp4">
+                <div class="videocontainer">
+                    <video src="resources\images\thesis.mp4">
                 </video>
-              </div>
-                
+                </div>
+
                 <div class="title">Reimagine Urban</div>
                 <span class="quote">&quot;Lorem ipsum dolor sit amet,
                   consectetur adipisicing
@@ -199,10 +207,10 @@
     <!-- End Thesis Section -->
 
     <footer class="container">
-      <span class="copyright">
+        <span class="copyright">
         &copy; 2016 Colmar Academy. All rights reserved
       </span>
-      <span class="legal">
+        <span class="legal">
         Terms Privacy
       </span>
     </footer>

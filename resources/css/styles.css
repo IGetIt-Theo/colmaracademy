@@ -48,9 +48,9 @@ h4 {
   margin-top: 24px;
   margin-bottom: 24px;
 }
-
+.mobile {display: none;}
 /* Header */
-header {
+header .container{
     background-color: white;
     padding: 0px 24px;
     height: 64px;
@@ -59,17 +59,18 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-header .logo-group {
+div .logo-group {
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
-header nav a {
+header div nav a {
     padding: 8px;
     text-decoration: none;
     color: inherit;
 }
+
 
 /* Banner */
 .banner-section {
@@ -184,7 +185,7 @@ header nav a {
   margin: 32px auto;
 }
 .learning-section-blocks{
-  width: 100%;
+  /*width: 100%; */
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -199,7 +200,7 @@ header nav a {
   min-height: 375px;
 }
 .learning-section img {
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 16px;
 }
 .learning-section .image-block-text{
