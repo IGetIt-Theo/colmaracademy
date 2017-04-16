@@ -10,7 +10,7 @@
 <body>
     <!-- Start Header -->
     <header>
-        <div class="container">
+        <div class="container pc">
           <div class="logo-group">
                 <img src="resources\images\ic-logo.svg" alt="Logo">
                 <span class="colmar"><strong>Colmar</strong> Academy</span>
@@ -34,21 +34,27 @@
     <!------------------------------------------->
     <!--Start Banner Section -->
     <div class="banner-section container">
-        <img src="resources\images\banner.jpg" alt="Chicks Studying">
+        <div class="banner-left-col pc">
+          <img src="resources\images\banner.jpg" alt="Chicks Studying">
+        </div>
+        <div class="mobile break"></div>
+        <div class="banner-right-col">
+
+
         <div class="banner-head">
-            <h1>Learn something new everyday</h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+            <h1>Learn something <br/>new everyday</h1>
+            <h3>Lorem ipsum dolor sit amet, <br/>consectetur adipisicing elit.</h3>
             <div class="banner-button">
                 <p>Start Here</p>
             </div>
-
+        </div>
         </div>
     </div>
     <!--End Banner Section -->
     <!------------------------------------------->
     <!-- Start Practice Section -->
     <div class="practice-section container">
-        <div class="practice-left-col">
+        <div class="practice-left-col pc">
             <img src="resources\images\information-main.jpg" alt="Dude Studying">
             <h2>It doesn't hurt to keep practicing</h2>
             <span class="quote">&quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -63,7 +69,8 @@
         </div>
         <div class="practice-right-col">
             <div class="image-block">
-                <img src="resources\images\information-orientation.jpg" alt="hikers">
+                <img class="pc" src="resources\images\information-orientation.jpg" alt="hikers">
+                <img class="mobile" src="resources\images\information-orientation-mobile.jpg" alt="hikers">
                 <div class="image-block-text">
                     <h4>Orientation date</h4>
                     <span>Tue 10/11 &amp; Wed 10/12: 8am-3pm</span>
@@ -71,7 +78,8 @@
                 </div>
             </div>
             <div class="image-block">
-                <img src="resources\images\information-campus.jpg" alt="big screen TV">
+                <img class="pc" src="resources\images\information-campus.jpg" alt="big screen TV">
+                <img class="mobile" src="resources\images\information-campus-mobile.jpg" alt="big screen TV">
                 <div class="image-block-text">
                     <h4>Our campus</h4>
                     <span>Find which campus is close by you</span>
@@ -79,7 +87,8 @@
                 </div>
             </div>
             <div class="image-block highlighted-content">
-                <img src="resources\images\information-guest-lecture.jpg" alt="hairy prof dude">
+                <img class="pc" src="resources\images\information-guest-lecture.jpg" alt="hairy prof dude">
+                <img class="mobile" src="resources\images\information-guest-lecture-mobile.jpg" alt="hairy prof dude">
                 <div class="image-block-text">
                     <h4>Our guest lecture</h4>
                     <span>Join a keynote with Oliver Sack about
@@ -94,7 +103,7 @@
     <!-- Start Learning Section -->
     <div class="learning-section container">
         <h1>Start Learning</h1>
-        <div class="learning-section-blocks">
+        <div class="learning-section-blocks pc">
             <div class="image-block">
                 <img src="resources\images\course-software.jpg" alt="screen">
                 <div class="image-block-text">
@@ -157,12 +166,22 @@
                 </div>
             </div>
         </div>
+        <div class="mobile">
+          <ul>
+            <li>Software engineering</li>
+            <li>Computer art</li>
+            <li>Design</li>
+            <li>Data</li>
+            <li>Business</li>
+            <li>Marketing</li>
+          </ul>
+        </div>
     </div>
     <!-- End Learning Section -->
     <!------------------------------------------->
     <!-- Start Thesis Section -->
     <div class="thesis-section container">
-        <h1>Thesis exhibit</h1>
+        <h1>Thesis exhibits</h1>
         <div class="thesis-section-blocks">
             <div class="thesis-left-col">
                 <div class="videocontainer">
@@ -170,8 +189,8 @@
                 </video>
                 </div>
 
-                <div class="title">Reimagine Urban</div>
-                <span class="quote">&quot;Lorem ipsum dolor sit amet,
+                <div class="title pc">Reimagine Urban</div>
+                <span class="quote pc">&quot;Lorem ipsum dolor sit amet,
                   consectetur adipisicing
                   elit, sed do eiusmod tempor incididunt ut labore et
                   dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -182,7 +201,7 @@
                   cupidatat non proident, sunt in culpa qui officia
                   deserunt mollit anim id est laborum.&quot;</span>
             </div>
-            <div class="thesis-right-col">
+            <div class="thesis-right-col pc">
                 <div class="image-block highlighted-content">
                     <img src="resources\images\thesis-fisma.jpg" alt="genderless arm studying">
                     <div class="image-block-text">
@@ -210,7 +229,7 @@
         <span class="copyright">
         &copy; 2016 Colmar Academy. All rights reserved
       </span>
-        <span class="legal">
+        <span class="legal pc">
         Terms Privacy
       </span>
     </footer>
